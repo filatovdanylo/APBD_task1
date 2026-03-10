@@ -2,7 +2,7 @@
 {
     public static void Main(string[] args)
     {
-        List<int> nums = new List<int>() {1, 2, 3, 4, 5, 10, 15};
+        List<int> nums = new List<int>() {4, 5, 10, 15};
         double average = FindAverage(nums);
         Console.WriteLine($"The average for an array is {average:F2}");
     }
