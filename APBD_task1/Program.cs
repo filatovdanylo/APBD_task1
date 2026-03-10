@@ -15,4 +15,13 @@
         }
         return sum / list.Count;
     }
+    public static int FindMin(List<int> list)
+    {
+        int min = int.MaxValue;
+        foreach (int i in list)
+        {
+            min = Math.Min(min, i);
+        }
+        return min;
+    }
 }
