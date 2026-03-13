@@ -42,6 +42,7 @@
     }
     public static double getAverageBetweenFirstAndLast(List<int> list)
     {
+        if (list.Count < 2) return 0;
         return (list[0] + list[list.Count - 1]) / 2;
     }
 }
