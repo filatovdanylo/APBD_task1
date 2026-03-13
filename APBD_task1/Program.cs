@@ -40,4 +40,8 @@
             return int.MinValue;
         return list[0];
     }
+    public static double getAverageBetweenFirstAndLast(List<int> list)
+    {
+        return (list[0] + list[list.Count - 1]) / 2;
+    }
 }
