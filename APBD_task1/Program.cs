@@ -5,6 +5,7 @@
         List<int> nums = new List<int>() {67, 5, 10, 15};
         double average = FindAverage(nums);
         Console.WriteLine($"The average for an array is {average:F2}");
+        Console.WriteLine("S32793 Filatov Danylo");
     }
     public static double FindAverage(List<int> list)
     {
