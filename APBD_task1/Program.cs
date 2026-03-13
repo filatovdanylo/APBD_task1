@@ -33,4 +33,10 @@
         }
         return max;
     }
+    public static int getFirstElement(List<int> list)
+    {
+        if (list.Count == 0)
+            return int.MinValue;
+        return list[0];
+    }
 }
