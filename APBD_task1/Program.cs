@@ -45,4 +45,8 @@
         if (list.Count < 2) return 0;
         return (list[0] + list[list.Count - 1]) / 2;
     }
+    public static string DummyMethod()
+    {
+        return "dummy string in main";
+    }
 }
