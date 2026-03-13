@@ -24,4 +24,13 @@
         }
         return min;
     }
+    public static int FindMax(List<int> list)
+    {
+        int max = int.MinValue;
+        foreach (int i in list)
+        {
+            max = Math.Max(max, i);
+        }
+        return max;
+    }
 }
