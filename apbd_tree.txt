@@ -1,0 +1,23 @@
+*   a903eba (HEAD -> main, origin/main, origin/HEAD) Merge conflict fix
+|\
+| * 318a7dd (feature-conflict) Added dummy method that returns a string
+* | ad4cfca Added dummy method in main branch that returns a string
+|/
+* cb032e2 (origin/feature-conflict, feature-avg-first-last) Added input validation to method getAverageBetweenFirstAndLast
+* c343d44 Added method to get average between first and last element
+* c45696c Update before rebase
+* 6146ebd Commit type explanation
+*   f997d08 Merge branch 'feature-first-el'
+|\
+| * 670ecb1 (origin/feature-first-el, feature-first-el) Added new method getFirstElement
+* | f5edb36 Changes before merge
+* | 278bcd1 Another change to README
+* | c957976 Changed README file
+|/
+* 832f360 (origin/feature-max, feature-max) Added FindMax method
+* 3b9ef43 Meaningful commit 4
+* dcf2cea Meaningful commit 3
+* 33e29a0 Meaningful commit 2
+* 8949276 Average commit. Meaningful commit 1
+* 98f23c8 Initial project
+* 188f22a first commit
